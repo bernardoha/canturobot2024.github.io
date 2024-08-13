@@ -109,6 +109,27 @@ header .menu{
 	color: #79DB32;
 }
 
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Distancia desde el fondo de la página */
+    right: 20px;  /* Distancia desde el lado derecho de la página */
+    background-color: #25D366; /* Color de fondo del botón */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+    z-index: 1000; /* Asegúrate de que esté sobre otros elementos */
+}
+
+.whatsapp-button img {
+    width: 50px; /* Ajusta el tamaño del ícono */
+    height: auto; /* Mantén la proporción del ícono */
+    display: block;
+}
+
+.whatsapp-button:hover {
+    background-color: #1EBEA5; /* Color más oscuro al pasar el ratón */
+}
+
 @media(max-width: 1280px){
 	header div{
 		padding-top: 3px;
