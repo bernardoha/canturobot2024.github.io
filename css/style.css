@@ -433,3 +433,30 @@ footer div div li{
 }
 
 
+.popup {
+    display: none; /* Ocultar el popup por defecto */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    bottom: 0; /* Alinear el popup en la parte baja */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+}
+
+.popup-content {
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    border-radius: 8px;
+    text-align: left; /* Alinear el texto a la izquierda */
+    position: relative; /* Para posicionar el botón de cierre */
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
